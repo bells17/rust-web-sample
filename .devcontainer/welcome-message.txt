@@ -1,0 +1,8 @@
+👋 Welcome to a redis web sample repo!
+   Works in GitHub Codespaces, VS Code, or in docker using the devcontainer cli
+
+- Start server: make run
+- Connect to PostgreSQL: psql -U postgres -h db -d postgres
+- Connect to redis: redis-cli -h redis
+- Build image: make build
+- Push image: PUSH=true TAG=foo make build
